@@ -23,6 +23,11 @@ I've have preconfigured the project with a simple development web server. The si
 
     gulp watch
 
+Other's commands
+
+    gulp
+    gulp --production
+
 ## Directory Layout
     assets/                     --> assets files for the project
       fonts/                   
