@@ -1,14 +1,14 @@
-@import "common/variables";
+@import 'common/mixins';
+@import 'common/variables';
 // Automatically injected Bower dependencies via wiredep (never manually edit this block)
 // bower:scss
-@import "../../bower_components/bootstrap/scss/bootstrap.scss";
 // endbower
 
-@import "common/global";
-@import "components/buttons";
-@import "components/ctas";
-@import "components/forms";
-@import "components/sections";
-@import "layouts/header";
-@import "layouts/footer";
-@import "common/responsive";
+@import 'common/global';
+@import 'components/buttons';
+@import 'components/ctas';
+@import 'components/forms';
+@import 'components/sections';
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'common/responsive';
