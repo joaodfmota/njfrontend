@@ -1,5 +1,6 @@
 # njfrontend
 A front-end project skeleton using Nunjucks and others tools that optimize my job converting PSD/AI to static HTML.
+[WIKI](https://github.com/joaodfmota/njfrontend/wiki)
 
 ## Quick install
     npm i njfrontend -g
