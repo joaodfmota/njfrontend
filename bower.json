@@ -1,25 +1,26 @@
 {
-  "name": "front-end-seed-nj",
-  "description": "A font-end project skeleton using Nunjucks and others tools that opmimize my job converting PSD/Ai to static HTML.",
-  "main": "index.js",
-  "authors": [
-    "joaodfmota"
-  ],
-  "license": "ISC",
-  "keywords": [
-    "front-end",
-    "nunjuck"
-  ],
-  "homepage": "https://github.com/joaodfmota/front-end-seed-nj",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "bootstrap": "v4.0.0-alpha.6",
-    "tether": "^1.4.0"
-  }
+    "name": "front-end-seed-nj",
+    "description": "A font-end project skeleton using Nunjucks and others tools that opmimize my job converting PSD/Ai to static HTML.",
+    "main": "index.js",
+    "authors": [
+        "joaodfmota"
+    ],
+    "license": "ISC",
+    "keywords": [
+        "front-end",
+        "nunjuck"
+    ],
+    "homepage": "https://github.com/joaodfmota/front-end-seed-nj",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "v4.0.0-alpha.6",
+        "tether": "^1.4.0",
+        "jquery": "^3.2.1"
+    }
 }
