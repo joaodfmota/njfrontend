@@ -28,7 +28,7 @@ Over npm or git clone
 ### Clone
 Clone the repository using [git](http://git-scm.com/ "Git"):
     git clone https://github.com/joaodfmota/njfrontend.git
-    cd front-end-seed-nj
+    cd njfrontend
 
 ## Usage
 After cloned or installed over npm you need to install the dependencies of your new project
