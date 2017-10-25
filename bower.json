@@ -1,26 +1,35 @@
 {
-    "name": "front-end-seed-nj",
-    "description": "A font-end project skeleton using Nunjucks and others tools that opmimize my job converting PSD/Ai to static HTML.",
-    "main": "index.js",
-    "authors": [
-        "joaodfmota"
-    ],
-    "license": "ISC",
-    "keywords": [
-        "front-end",
-        "nunjuck"
-    ],
-    "homepage": "https://github.com/joaodfmota/front-end-seed-nj",
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "bootstrap": "v4.0.0-alpha.6",
-        "tether": "^1.4.0",
-        "jquery": "^3.2.1"
+  "name": "front-end-seed-nj",
+  "description": "A font-end project skeleton using Nunjucks and others tools that opmimize my job converting PSD/Ai to static HTML.",
+  "main": "index.js",
+  "authors": [
+    "joaodfmota"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "front-end",
+    "nunjuck"
+  ],
+  "homepage": "https://github.com/joaodfmota/front-end-seed-nj",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-beta",
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0",
+    "popper.js": "^1.12.6"
+  },
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "scss/font-awesome.scss",
+        "fonts/*"
+      ]
     }
+  }
 }

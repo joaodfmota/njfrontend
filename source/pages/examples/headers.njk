@@ -1,0 +1,60 @@
+{% set bodyClass = "home" %}
+{% set blocksCOunt = "0" %}
+<!-- Index -->
+{% extends "layout-example.njk" %}
+{% block content %}
+  <section class="section section--block-list">
+    <div class="section-intro">
+      <div class="container">
+        <h1 class="section__intro">Headers</h1>
+      </div>
+
+      <div class="section-content mt-5">
+        <div class="block-element">
+          <!-- H001 -->
+          <header>
+            <div class="container">
+              <nav class="navbar">
+                <a href="#">
+                  <img src="/images/logo.png" height="30" alt="Logo">
+                </a>
+              </nav>
+            </div>
+          </header><!-- .H001 -->
+        </div>
+        <div class="block-code">
+          <div class="container">
+            <code>
+              header>.container>nav.navbar>a>img
+            </code>
+          </div>
+        </div>
+
+        <div class="block-element">
+          <!-- H002 -->
+          <header>
+            <div class="container text-center">
+              <nav class="navbar">
+                <a class="ml-auto mr-auto" href="#">
+                  <img src="/images/logo.png" height="30" alt="Logo">
+                </a>
+              </nav>
+            </div>
+          </header><!-- .H002 -->
+        </div>
+        <div class="block-code">
+          <div class="container">
+            <code>
+              header>.container.text-center>nav.navbar>a.ml-auto.mr-auto>img
+            </code>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
+<!-- .Index -->

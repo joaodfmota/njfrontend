@@ -1,0 +1,15 @@
+//  
+// 2.2 CTAs
+//
+// 2.2.1. Common
+//
+// ==================================================
+// 2.2.1 Common
+// -------------------------------------------------- 
+@include block(cta) {
+  padding: $pv-half;
+}
+
+@include block(cta-intro) {
+  margin-bottom: 20px;
+}

@@ -2,6 +2,8 @@
 @import 'common/variables';
 // Automatically injected Bower dependencies via wiredep (never manually edit this block)
 // bower:scss
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
 @import 'common/global';
@@ -11,4 +13,4 @@
 @import 'components/sections';
 @import 'layouts/header';
 @import 'layouts/footer';
-@import 'common/responsive';
+@import 'layouts/example';

@@ -3,7 +3,8 @@
     "main.js": {
       "bower": [
         "tether",
-        "bootstrap"
+        "bootstrap",
+        "popper.js"
         ],
       "files": [
         "scripts/main.js"

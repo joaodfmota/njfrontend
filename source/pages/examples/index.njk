@@ -1,0 +1,34 @@
+{% set bodyClass = "home" %}
+{% set blocksCOunt = "2" %}
+<!-- Index -->
+{% extends "layout-example.njk" %}
+{% block content %}
+  <section class="section pt-default">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-8 text-left">
+          <h1>njfrontend</h1>
+          <p class="text-h3">Over {{ blocksCOunt }} blocks ready to be used in your web or mobile apps. All blocks are based on the Bootstrap Library.</p>
+          <p class="mt-5">
+            <a class="btn btn-dark" href="https://github.com/joaodfmota/njfrontend"><i class="fa fa-github"></i> Github</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta cta--block-list">
+    <div class="container">
+      <div class="cta-intro">
+        <h2 class="cta__intro">Blocks</h2>
+      </div>
+
+      <div class="cta-content">
+        <a class="btn btn-outline-primary" href="/examples/headers.html">Headers</a>
+      </div>
+    </div>
+  
+  </section>
+
+{% endblock %}
+<!-- .Index -->
