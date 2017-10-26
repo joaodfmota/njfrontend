@@ -25,7 +25,7 @@
         <div class="block-code">
           <div class="container">
             <code>
-              header>.container>nav.navbar>a>img
+              header>.container>nav.navbar>a[href="#"]>img[src="/images/logo.png" height="30" alt="Logo"]
             </code>
           </div>
         </div>
@@ -45,11 +45,101 @@
         <div class="block-code">
           <div class="container">
             <code>
-              header>.container.text-center>nav.navbar>a.ml-auto.mr-auto>img
+              header>.container.text-center>nav.navbar>a.ml-auto.mr-auto[href="#"]>img[src="/images/logo.png" height="30" alt="Logo"]
             </code>
           </div>
         </div>
 
+        <div class="block-element">
+          <!--H003-->
+          <header>
+            <div class="container">
+              <nav class="navbar navbar-expand-md">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav0" aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav0">
+                  <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Team</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </header><!--.H003-->
+        </div>
+        <div class="block-code">
+          <div class="container">
+            <code>
+              header>.container>nav.navbar.navbar-expand-md>button.navbar-toggler[type="button" data-toggle="collapse" data-target="#navbarNav0" aria-controls="navbarNav0" aria-expanded="false" aria-label="Toggle navigation"]>span.navbar-toggler-icon^.collapse.navbar-collapse#navbarNav0>ul.navbar-nav.mr-auto.ml-auto>li.nav-item*4>a.nav-link[href="#"]{Item $}
+            </code>
+          </div>
+        </div>
+
+        <div class="block-element">
+          <!--H004-->
+          <header>
+            <div class="container">
+              <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="#">
+                  <img src="/images/logo.png" height="30" alt="Logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav1">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Team</a>
+                    </li>
+                  </ul>
+
+                  <ul class="navbar-nav justify-content-end d-none d-lg-flex ml-md-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-slack"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-github"></i></a>
+                    </li>
+                  </ul>
+
+                  <a class="btn btn-primary ml-md-3" href="#">Button</a>
+                </div>
+              </nav>
+            </div>
+          </header><!--.H004-->
+        </div>
+        <div class="block-code">
+          <div class="container">
+            <code>
+              header>.container>nav.navbar.navbar-expand-md>a.navbar-brand[href="#"]>img[src="/images/logo.png" height="30" alt="Logo"]^button.navbar-toggler[type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation"]>span.navbar-toggler-icon^.collapse.navbar-collapse#navbarNav1>(ul.navbar-nav.mr-auto>(.nav-item*4>a.nav-link[href="#"]{Item $}))+(ul.navbar-nav.justify-content-end.d-noned-lg-flex.ml-md-auto>(.nav-item*3>a.nav-link[href="#"]>i.fa.fa-github))+a.btn.btn-primary.ml-md-3[href="#"]{Button}
+            </code>
+          </div>
+        </div>
 
 
       </div>
